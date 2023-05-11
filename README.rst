@@ -52,6 +52,15 @@ environment variable. You can do this by placing
 ``import os; os.environ['CEBRA_DATADIR'] = "path/to/your/data"`` at the
 **top** of your notebook.
 
+If you use Google Colaboratory, you can easily add the following code into a early cell in the notebook to directly download and use:
+
+.. code-block::
+
+   #for google colab only, run this cell to download and extract data:
+   !wget --content-disposition https://figshare.com/ndownloader/files/36869049?private_link=60adb075234c2cc51fa3
+   !mkdir data
+   !tar -xvf "/content/data.tgz" -C "/content/data"
+
 For reference, the original data is available at:
 
 - `Hippocampus dataset <https://crcns.org/data-sets/hc/hc-11/about-hc-11>`_, using a 
