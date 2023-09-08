@@ -2,6 +2,7 @@
 *.h5
 !rat_demo_example_output.h5
 *.pkl
+.ipynb_checkpoints
 
 # datasets
 data/
