@@ -44,7 +44,7 @@ We host prepackaged data on
 `figshare <https://figshare.com/s/60adb075234c2cc51fa3>`__. And several of the demo notebooks have an automatic data download function.
 
 
-If you don't see the auto-download, and you use Google Colaboratory, you can easily add the following code into a early cell in the notebook to directly download and use:
+If you don't see the auto-download, and you use Google Colaboratory, you can easily add the following code into an early cell in the notebook to directly download and use:
 
 .. code-block::
 
