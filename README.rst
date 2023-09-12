@@ -37,6 +37,7 @@ This demo requires several additional packages that have differing
 requirements to CEBRA. Therefore, we recommend using the supplied
 ``docker`` container or ``conda`` cebra-full env.
 
+
 Demo Data 
 ---------
 
@@ -57,6 +58,7 @@ For different paths, you can specify the ``CEBRA_DATADIR=...``
 environment variable. You can do this by placing
 ``import os; os.environ['CEBRA_DATADIR'] = "path/to/your/data"`` at the
 **top** of your notebook.
+
 
 For reference, the original data is available at:
 
