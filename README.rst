@@ -22,6 +22,7 @@ installation, and the datasets required to run the notebooks, available on
    Technical: conv-piVAE <demo_notebooks/Demo_conv-pivae.ipynb>
    Technical: S1 training with MSE loss <demo_notebooks/Demo_primate_reaching_mse_loss.ipynb>
    Technical: Learning the temperature parameter <demo_notebooks/Demo_learnable_temperature.ipynb>
+   Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
    
 
 The demo notebooks can also be found on `GitHub <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__.
