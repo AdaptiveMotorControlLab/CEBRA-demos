@@ -22,10 +22,10 @@ installation, and the datasets required to run the notebooks, available on
    Technical: conv-piVAE <demo_notebooks/Demo_conv-pivae.ipynb>
    Technical: S1 training with MSE loss <demo_notebooks/Demo_primate_reaching_mse_loss.ipynb>
    Technical: Learning the temperature parameter <demo_notebooks/Demo_learnable_temperature.ipynb>
+   Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
    
 
-The demo notebooks can also be found in the ``demo_notebooks/`` subdirectory
-in the CEBRA repository. 
+The demo notebooks can also be found on `GitHub <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__.
 
 Installation
 ------------
@@ -38,19 +38,28 @@ This demo requires several additional packages that have differing
 requirements to CEBRA. Therefore, we recommend using the supplied
 ``docker`` container or ``conda`` cebra-full env.
 
-Download Demo Data From FigureShare
------------------------------------
+
+Demo Data 
+---------
 
 We host prepackaged data on
-`figshare <https://figshare.com/s/60adb075234c2cc51fa3>`__. Please
-download them and check the loading directory is correct in the
-notebook. By default we assume you have downloaded the data in the
-``./data/`` directory in the repository root.
+`figshare <https://figshare.com/s/60adb075234c2cc51fa3>`__. And several of the demo notebooks have an automatic data download function.
+
+
+If you don't see the auto-download, and you use Google Colaboratory, you can easily add the following code into an early cell in the notebook to directly download and use:
+
+.. code-block::
+
+   #for google colab only, run this cell to download and extract data:
+   !wget --content-disposition https://figshare.com/ndownloader/files/36869049?private_link=60adb075234c2cc51fa3
+   !mkdir data
+   !tar -xvf "/content/data.tgz" -C "/content/data"
 
 For different paths, you can specify the ``CEBRA_DATADIR=...``
 environment variable. You can do this by placing
 ``import os; os.environ['CEBRA_DATADIR'] = "path/to/your/data"`` at the
 **top** of your notebook.
+
 
 For reference, the original data is available at:
 
