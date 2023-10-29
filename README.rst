@@ -62,7 +62,7 @@ environment variable. You can do this by placing
 **top** of your notebook.
 
 
-For reference, the original data is available at:
+For reference, the original open-source data we used in Schneider, Lee, Mathis 2023 is available at:
 
 - `Hippocampus dataset <https://crcns.org/data-sets/hc/hc-11/about-hc-11>`_, using a 
   `preprocessing script <https://github.com/zhd96/pi-vae/blob/main/code/rat_preprocess_data.py>`_.
