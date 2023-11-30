@@ -23,6 +23,7 @@ installation, and the datasets required to run the notebooks, available on
    Technical: S1 training with MSE loss <demo_notebooks/Demo_primate_reaching_mse_loss.ipynb>
    Technical: Learning the temperature parameter <demo_notebooks/Demo_learnable_temperature.ipynb>
    Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
+   Demo: Using Dandi Data <demo_notebooks/Demo_dandi_NeuroDataReHack_2023.ipynb>
    
 
 The demo notebooks can also be found on `GitHub <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__.
@@ -61,7 +62,7 @@ environment variable. You can do this by placing
 **top** of your notebook.
 
 
-For reference, the original data is available at:
+For reference, the original open-source data we used in Schneider, Lee, Mathis 2023 is available at:
 
 - `Hippocampus dataset <https://crcns.org/data-sets/hc/hc-11/about-hc-11>`_, using a 
   `preprocessing script <https://github.com/zhd96/pi-vae/blob/main/code/rat_preprocess_data.py>`_.
