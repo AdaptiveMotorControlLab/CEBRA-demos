@@ -10,6 +10,7 @@ installation, and the datasets required to run the notebooks, available on
 .. nbgallery::
    :maxdepth: 2
 
+   Getting Started with CEBRA <demo_notebooks/CEBRA_best_practices.ipynb>
    Encoding of space, hippocampus (CA1) <demo_notebooks/Demo_hippocampus.ipynb>
    Decoding movie features from (V1) visual cortex <demo_notebooks/Demo_Allen.ipynb>
    Forelimb dynamics, somatosensory (S1) <demo_notebooks/Demo_primate_reaching.ipynb>
