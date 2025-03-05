@@ -65,7 +65,7 @@ environment variable. You can do this by placing
 Contributing 
 ------------
 
-We welcome Demo notebooks from others! Plear fork the repo, add your notebook and check that it works on Google Colaboratory (remove the launch buttom), then open a PR! Please also edit the "gallery" list (see the soure code for this page), and finally, add an icon `here <https://github.com/AdaptiveMotorControlLab/CEBRA-assets>`__.
+We welcome Demo notebooks from others! Please fork the repo, add your notebook, check that it works on Google Colaboratory (remove the launch button within your PR), and then open a PR! Please also edit the "gallery" list (see the soure code for this page), and finally, add an icon `here <https://github.com/AdaptiveMotorControlLab/CEBRA-assets>`__.
 
 
 For reference, the original open-source data we used in Schneider, Lee, Mathis 2023 is available at:
