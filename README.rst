@@ -25,7 +25,6 @@ installation, and the datasets required to run the notebooks, available on
    Technical: Learning the temperature parameter <demo_notebooks/Demo_learnable_temperature.ipynb>
    Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
    Demo: Using Dandi Data <demo_notebooks/Demo_dandi_NeuroDataReHack_2023.ipynb>
-   Explainability: xCEBRA Introduction <demo_notebooks/Demo_xCEBRA_Synthetic.ipynb>
    Explainability: xCEBRA on RatInABox dataset <demo_notebooks/Demo_xCEBRA_RatInABox.ipynb>
    
 
