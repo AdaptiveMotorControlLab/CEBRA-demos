@@ -19,7 +19,8 @@ installation, and the datasets required to run the notebooks, available on
    Consistency <demo_notebooks/Demo_consistency.ipynb>
    Decoding <demo_notebooks/Demo_decoding.ipynb>
    Topological data analysis <demo_notebooks/Demo_cohomology.ipynb>
-   Unified encoders via behavioral alignment <demo_notebooks/Demo_hippocampus_unified.ipynb>
+   Unified encoders via behavioral alignment <demo_notebooks/Demo_unified_hippocampus.ipynb>
+   Explainability: Unified CEBRA attribution <demo_notebooks/Demo_unified_allen_attribution.ipynb>
    Technical: Training models across animals <demo_notebooks/Demo_hippocampus_multisession.ipynb>
    Technical: conv-piVAE <demo_notebooks/Demo_conv-pivae.ipynb>
    Technical: S1 training with MSE loss <demo_notebooks/Demo_primate_reaching_mse_loss.ipynb>
